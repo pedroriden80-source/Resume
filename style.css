@@ -1,0 +1,29 @@
+/* BACK BUTTON */
+.back-btn {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text);
+    background: rgba(255, 255, 255, 0.05);
+    padding: 8px 16px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 14px;
+    font-weight: 600;
+    /* Smooth animation transition */
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .back-btn:hover {
+    color: var(--white);
+    background: var(--primary);
+    border-color: var(--primary);
+    /* Slide-left animation on hover */
+    transform: translateX(-6px); 
+    box-shadow: 0 4px 15px rgba(22, 163, 74, 0.3);
+  }
+  
+  /* Adjust nav-links alignment if used together */
+  .nav-links {
+    align-items: center;
+  }
